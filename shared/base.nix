@@ -69,7 +69,7 @@
     networkmanagerapplet
     neovim
     catppuccin-cursors.mochaSapphire
-    remmina
+    firefox
     blueman
     gimp3
     obs-studio
