@@ -46,6 +46,8 @@
   users.defaultUserShell = pkgs.zsh;
 
   environment.sessionVariables = {
+    XCURSOR_THEME = "Catppuccin-Mocha-Sapphire-Cursors";
+    XCURSOR_SIZE = "24";
     NIXOS_OZONE_WL = "1";
   };
 
@@ -59,12 +61,13 @@
     kitty
     wofi
     waybar
+    swww
     wl-clipboard
     pavucontrol
     brightnessctl
     networkmanagerapplet
     neovim
-    bibata-cursors
+    catppuccin-cursors.mochaSapphire
     openvpn3
     remmina
     steam-run
