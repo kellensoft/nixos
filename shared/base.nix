@@ -74,6 +74,14 @@
     blueman
     gimp3
     obs-studio
+    volta
+    go gopls
+    rustup
+    gcc clang clang-tools gdb
+    cmake ninja
+    ccls
+    dotnet-sdk_8 mono
+    omnisharp-roslyn
   ];
 
   services.flatpak.enable = true;
