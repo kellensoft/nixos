@@ -102,6 +102,9 @@
 
   hardware.steam-hardware.enable = true;
 
+  virtualisation.libvirtd.enable = true;
+  networking.firewall.allowedTCPPorts = [ 5900 5901 ];
+
   nixpkgs.config.allowUnfree = true;
 
   xdg.portal = {
