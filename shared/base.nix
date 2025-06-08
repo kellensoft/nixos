@@ -82,7 +82,7 @@
     dotnet-sdk_8 mono
     omnisharp-roslyn
     qemu libvirt spice-gtk
-    virt-install virt-manager virt-viewer
+    virt-manager virt-viewer
   ];
 
   services.flatpak.enable = true;
