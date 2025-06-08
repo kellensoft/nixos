@@ -54,6 +54,7 @@
     wget
     zsh
     git
+    gh
     w3m
     kitty
     wofi
