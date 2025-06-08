@@ -70,10 +70,10 @@
     catppuccin-cursors.mochaSapphire
     openvpn3
     remmina
-    steam-run
-    firefox
     blueman
   ];
+
+  services.flatpak.enable = true;
 
   fonts.packages = with pkgs; [
     nerd-fonts._0xproto
