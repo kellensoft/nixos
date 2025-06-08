@@ -88,6 +88,8 @@
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
 
+  hardware.steam-hardware.enable = true;
+
   nixpkgs.config.allowUnfree = true;
 
   xdg.portal = {
