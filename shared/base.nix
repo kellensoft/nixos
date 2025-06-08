@@ -27,6 +27,7 @@
     enable = true;
     audio.enable = true;
     pulse.enable = true;
+    jack.enable = true;
   };
   services.pulseaudio.enable = false;
 
@@ -72,6 +73,7 @@
     remmina
     blueman
     gimp3
+    obs-studio
   ];
 
   services.flatpak.enable = true;
@@ -95,6 +97,7 @@
 
   xdg.portal = {
     enable = true;
+    wlr.enable = true;
     extraPortals = [ pkgs.xdg-desktop-portal-hyprland ];
     config.common.default = "hyprland";
   };
