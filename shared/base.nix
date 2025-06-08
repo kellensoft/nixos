@@ -69,7 +69,6 @@
     networkmanagerapplet
     neovim
     catppuccin-cursors.mochaSapphire
-    openvpn3
     remmina
     blueman
     gimp3
