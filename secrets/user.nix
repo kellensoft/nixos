@@ -3,7 +3,7 @@
     isNormalUser = true;
     description = "User Name";
     shell = pkgs.zsh; 
-    extraGroups = [ "networkmanager" "wheel" "video" "audio" "bluetooth" ];
+    extraGroups = [ "networkmanager" "wheel" "video" "audio" "bluetooth" "libvirtd" "qemu-libvirtd" ];
     packages = [ ];
   };
 }
