@@ -71,6 +71,7 @@
     openvpn3
     remmina
     blueman
+    gimp3
   ];
 
   services.flatpak.enable = true;
